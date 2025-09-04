@@ -11,4 +11,4 @@ def div(a,b):
     if b == 0:
         return "Cannot divide it by zero"
     else:
-        return a/b
+        return float(a/b)
