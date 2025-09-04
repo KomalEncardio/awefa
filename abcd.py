@@ -12,3 +12,9 @@ def div(a,b):
         return "Cannot divide it by zero"
     else:
         return float(a/b)
+    
+def exponent(a,b):
+    if b == 0:
+        return 1
+    else:
+        return exponent(a,b-1)
