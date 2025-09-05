@@ -21,5 +21,10 @@ def exponent(a,b):
     
 import math
 
+
 def log(a,b):
     return math.log(a,b)
+
+def factorial(a):
+    return math.factorial(a)
+
