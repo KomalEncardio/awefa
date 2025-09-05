@@ -18,3 +18,8 @@ def exponent(a,b):
         return 1
     else:
         return exponent(a,b-1)
+    
+import math
+
+def factorial(a):
+    return math.factorial(a)
