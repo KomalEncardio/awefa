@@ -23,3 +23,8 @@ import math
 
 def factorial(a):
     return math.factorial(a)
+    
+import math
+
+def log(a,b):
+    return math.log(a,b)
