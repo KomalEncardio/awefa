@@ -18,3 +18,8 @@ def exponent(a,b):
         return 1
     else:
         return exponent(a,b-1)
+    
+import math
+
+def log(a,b):
+    return math.log(a,b)
